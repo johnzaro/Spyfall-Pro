@@ -1,0 +1,50 @@
+//
+//  Localizable.strings
+//  Spyfall Pro
+//
+//  Created by John Zarogiannis on 28/7/20.
+//  Copyright © 2020 John Zarogiannis. All rights reserved.
+//
+
+// GENERAL
+"start" = "START";
+"return" = "RETURN";
+
+// WELCOME VIEW - OPTIONS
+"numOfPlayers" = "NUMBER OF PLAYERS";
+"extraCategories" = "EXTRA CATEGORIES";
+"fantasy" = "FANTASY";
+"nsfw" = "NSFW";
+"locationsList" = "LIST OF LOCATIONS";
+
+// GAME VIEW
+"%d numOfPlayer" = "PLAYER %d";
+"showLocation" = "SHOW LOCATION";
+"nextPlayer" = "NEXT PLAYER";
+"nextRound" = "NEXT ROUND";
+"spy" = "SPY";
+"haveFun" = "HAVE FUN!";
+"timerEnded" = "TIMER ENDED!";
+"alert" = "ARE YOU SURE YOU WANT TO END THIS ROUND?";
+"yes" = "YES";
+"no" = "NO";
+
+// INFO VIEW
+"roundsTitle" = "Rounds";
+"roundsText" = "Each game is a series of short rounds, the number of which is agreed upon by the the players before the beginning of the game. \n\nQuestions are asked once; no follow-up questions are allowed. Responses can take any form. The player who answers the question proceeds to ask any other player a question of their own, but cannot ask a question of the player who just asked them a question. The order in which the questions are asked is established by the players themselves and based on the suspicions they have after hearing the questions and answers.";
+"spiesTitle" = "Spies";
+"spiesText" = "For 4 to 9 players there is 1 spy, for 10 players and up, there are 2 spies.\n\nThere is a small chance that all the players in a round are spies and the winners then is the player who guesses that first.";
+"timerTitle" = "Timer";
+"timerText" = "For 4 players each round lasts 5 minutes and for 5 players or more each round lasts  each round lasts as many minutes as the number of players + 2, that is, for 5 players 7 minutes are given, for 8 players 10 minutes etc.";
+"endOfRoundTitle" = "End of Round";
+"endOfRoundText" = "A round ends when one of the following three things happen.\n\n1. The timer ended: When time runs out, each player gets to accuse another player of being the spy. Players are now free to discuss their suspicions. If the players unanimously, except the suspect, vote for the suspect, they win (provided that the suspect is the Spy). A second or third ballot is not allowed. In any other case, the Spy wins.\n\n2. When a Player Gets Suspicious: Each player can stop the game (along with the timer) at any time, but only once in each round. He then selects one player as a suspect and asks the other players to vote. The accused does not take part in the voting. If the vote is unanimous, the round ends (regardless of whether the suspect is the Spy). If the Spy is found in this way, the player who asked for a vote wins 1 victory point. Even the Spy can take advantage of accusing another player in order to mislead the rest. If there is no unanimous vote, the round with time continues normally from the point where it was interrupted. Do not discuss during the voting (eg I think this player is the Spy, because he said his clothes are green and he should be blue). \"For\" and \"against\" arguments can inadvertently betray the site.\n\n3. At the Spy’s Request: The Spy can stop the round and the timer at any time, revealing his card. If he guesses the location correctly, he wins. Otherwise, the other players win. The Spy cannot guess the location during another player voting. He missed his chance. If they vote for him, then he loses for this round.";
+"objectivesAndStrategiesTitle" = "Objectives and Strategies";
+"objectivesAndStrategiesText" = "The goal of non-spies is to reveal the Spy and not reveal their location. So non-spies should avoid asking too many clear questions. However, when a player asks and answers too vaguely, players may begin to suspect him, allowing the real Spy to win.\n\nThe Spy's goal is to listen carefully to what the players are saying, not to reveal themselves and to guess correctly the location of the players before time runs out. It is dangerous for the Spy to wait for the round to end, because it is very likely that the other players will reveal him in the final vote.";
+"scoringTitle" = "Scoring";
+"scoringText" = "The spy wins the round if:\n\nA) They were not revealed until the end of the round.\nB) A non-spy was charged during the round.\nΓ) Guessed the location correctly.\n\nNon-Spies win the round if:\n\nA) The spy was revealed during the voting at the end of the round.\nΒ) The Spy is accused unanimously during a round of voting.\nΓ) The Spy stops the game, but does not guess the location correctly. Players are scored according to the result of each round.";
+"spyVictoryTitle" = "Spy Victory";
+"spyVictoryText" = "• Victory: The spy earns 2 points.\n• If the spy stops the game and successfully guesses the location: The spy earns +2 points.\n• If all players unanimously accused a non-spy: The spy earns +2 points.";
+"nonSpyVictoryTitle" = "Non-Spy Victory";
+"nonSpyVictoryText" = "• Victory: Each non-spy earns 1 point.\n• The player who started the spy voting successfully: +1 point.\n\nIn case the spy remained hidden, he also earns points as if he were a non-spy. Attention: only the player who blamed the real Spy for the first time in the round wins the extra 1 point, even if his vote failed and the same Spy was found during another player's vote.";
+"endOfTheGameTitle" = "End of the Game";
+"endOfTheGameText" = "Whoever collects the most points, after the agreed number of rounds, is the winner of the game.";

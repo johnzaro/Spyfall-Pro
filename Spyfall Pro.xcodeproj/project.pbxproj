@@ -7,23 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52378A1524C45D910024EDC4 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52378A1424C45D910024EDC4 /* HexColor.swift */; };
+		52378A1724C45DAF0024EDC4 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52378A1624C45DAF0024EDC4 /* PlaySound.swift */; };
+		52378A2024C470DE0024EDC4 /* WelcomeView_InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52378A1F24C470DE0024EDC4 /* WelcomeView_InfoView.swift */; };
+		525A385224C4AAD9002D79FE /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A385124C4AAD9002D79FE /* ParentView.swift */; };
+		525A385424C4AC7E002D79FE /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A385324C4AC7E002D79FE /* GameSettings.swift */; };
+		525A385624C4BA81002D79FE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A385524C4BA81002D79FE /* GameView.swift */; };
+		525A385B24C4C306002D79FE /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 525A385824C4C306002D79FE /* locations.json */; };
+		526EC0A724C8A655001AD9BF /* SliderWithMinMaxValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EC0A624C8A655001AD9BF /* SliderWithMinMaxValues.swift */; };
 		5294A31424C1C17D00D10110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294A31324C1C17D00D10110 /* AppDelegate.swift */; };
 		5294A31624C1C17D00D10110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294A31524C1C17D00D10110 /* SceneDelegate.swift */; };
-		5294A31824C1C17D00D10110 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294A31724C1C17D00D10110 /* ContentView.swift */; };
+		5294A31824C1C17D00D10110 /* WelcomeView_OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294A31724C1C17D00D10110 /* WelcomeView_OptionsView.swift */; };
 		5294A31A24C1C17F00D10110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5294A31924C1C17F00D10110 /* Assets.xcassets */; };
 		5294A31D24C1C17F00D10110 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5294A31C24C1C17F00D10110 /* Preview Assets.xcassets */; };
-		5294A32024C1C17F00D10110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5294A31E24C1C17F00D10110 /* LaunchScreen.storyboard */; };
+		5294A32924C1DA5500D10110 /* Codename Coder Free 4F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5294A32824C1DA5500D10110 /* Codename Coder Free 4F.ttf */; };
+		52A8701E24D0493200134A20 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52A8702024D0493200134A20 /* Localizable.strings */; };
+		52A8702324D04A0900134A20 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8702224D04A0900134A20 /* String+Localized.swift */; };
+		52BCF36A24C8AE25002EB9A9 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCF36924C8AE25002EB9A9 /* CircularButton.swift */; };
+		52BCF36C24C8B0A6002EB9A9 /* RoundedRectanglularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCF36B24C8B0A6002EB9A9 /* RoundedRectanglularButton.swift */; };
+		52BCF36E24C8C4A9002EB9A9 /* TitleWithVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCF36D24C8C4A9002EB9A9 /* TitleWithVariable.swift */; };
+		52BCF37024C8D7F4002EB9A9 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCF36F24C8D7F4002EB9A9 /* CustomToggle.swift */; };
+		F710B7DF25434B130007FAE2 /* ButtonScaleOnPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710B7DE25434B130007FAE2 /* ButtonScaleOnPress.swift */; };
+		F710B7E425435A860007FAE2 /* WelcomeView_ListOfLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710B7E325435A860007FAE2 /* WelcomeView_ListOfLocations.swift */; };
+		F79DFD6F254AE59A008D6027 /* pause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F79DFD6D254AE59A008D6027 /* pause.mp3 */; };
+		F79DFD70254AE59A008D6027 /* resume.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F79DFD6E254AE59A008D6027 /* resume.mp3 */; };
+		F79DFD74254AE867008D6027 /* buttonClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F79DFD73254AE867008D6027 /* buttonClick.mp3 */; };
+		F79DFD77254AE8B6008D6027 /* gameStarted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F79DFD76254AE8B6008D6027 /* gameStarted.mp3 */; };
+		F79DFD7E254AE922008D6027 /* toggleOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F79DFD7A254AE922008D6027 /* toggleOn.mp3 */; };
+		F79DFD7F254AE922008D6027 /* toggleOff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F79DFD7B254AE922008D6027 /* toggleOff.mp3 */; };
+		F79DFD80254AE922008D6027 /* timeOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F79DFD7C254AE922008D6027 /* timeOver.mp3 */; };
+		F79DFD81254AE922008D6027 /* sliderClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F79DFD7D254AE922008D6027 /* sliderClick.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52378A1424C45D910024EDC4 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		52378A1624C45DAF0024EDC4 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		52378A1F24C470DE0024EDC4 /* WelcomeView_InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView_InfoView.swift; sourceTree = "<group>"; };
+		525A385124C4AAD9002D79FE /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		525A385324C4AC7E002D79FE /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		525A385524C4BA81002D79FE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		525A385824C4C306002D79FE /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; lineEnding = 0; path = locations.json; sourceTree = "<group>"; usesTabs = 1; };
+		526EC0A624C8A655001AD9BF /* SliderWithMinMaxValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderWithMinMaxValues.swift; sourceTree = "<group>"; };
 		5294A31024C1C17D00D10110 /* Spyfall Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spyfall Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5294A31324C1C17D00D10110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5294A31524C1C17D00D10110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5294A31724C1C17D00D10110 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5294A31724C1C17D00D10110 /* WelcomeView_OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView_OptionsView.swift; sourceTree = "<group>"; };
 		5294A31924C1C17F00D10110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5294A31C24C1C17F00D10110 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5294A31F24C1C17F00D10110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5294A32124C1C17F00D10110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5294A32824C1DA5500D10110 /* Codename Coder Free 4F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Codename Coder Free 4F.ttf"; sourceTree = "<group>"; };
+		52A8701F24D0493200134A20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52A8702124D0494900134A20 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52A8702224D04A0900134A20 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		52BCF36924C8AE25002EB9A9 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		52BCF36B24C8B0A6002EB9A9 /* RoundedRectanglularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectanglularButton.swift; sourceTree = "<group>"; };
+		52BCF36D24C8C4A9002EB9A9 /* TitleWithVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithVariable.swift; sourceTree = "<group>"; };
+		52BCF36F24C8D7F4002EB9A9 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		52BCF37324C8DDD0002EB9A9 /* Spyfall Pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Spyfall Pro.entitlements"; sourceTree = "<group>"; };
+		F710B7DE25434B130007FAE2 /* ButtonScaleOnPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScaleOnPress.swift; sourceTree = "<group>"; };
+		F710B7E325435A860007FAE2 /* WelcomeView_ListOfLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView_ListOfLocations.swift; sourceTree = "<group>"; };
+		F79DFD6D254AE59A008D6027 /* pause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pause.mp3; sourceTree = "<group>"; };
+		F79DFD6E254AE59A008D6027 /* resume.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = resume.mp3; sourceTree = "<group>"; };
+		F79DFD73254AE867008D6027 /* buttonClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonClick.mp3; sourceTree = "<group>"; };
+		F79DFD76254AE8B6008D6027 /* gameStarted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameStarted.mp3; sourceTree = "<group>"; };
+		F79DFD7A254AE922008D6027 /* toggleOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toggleOn.mp3; sourceTree = "<group>"; };
+		F79DFD7B254AE922008D6027 /* toggleOff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toggleOff.mp3; sourceTree = "<group>"; };
+		F79DFD7C254AE922008D6027 /* timeOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timeOver.mp3; sourceTree = "<group>"; };
+		F79DFD7D254AE922008D6027 /* sliderClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sliderClick.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +87,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52378A1324C45D7A0024EDC4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F710B7DE25434B130007FAE2 /* ButtonScaleOnPress.swift */,
+				52BCF36924C8AE25002EB9A9 /* CircularButton.swift */,
+				52BCF36F24C8D7F4002EB9A9 /* CustomToggle.swift */,
+				52378A1424C45D910024EDC4 /* HexColor.swift */,
+				52378A1624C45DAF0024EDC4 /* PlaySound.swift */,
+				52BCF36B24C8B0A6002EB9A9 /* RoundedRectanglularButton.swift */,
+				526EC0A624C8A655001AD9BF /* SliderWithMinMaxValues.swift */,
+				52A8702224D04A0900134A20 /* String+Localized.swift */,
+				52BCF36D24C8C4A9002EB9A9 /* TitleWithVariable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		52378A1824C45F4B0024EDC4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F79DFD73254AE867008D6027 /* buttonClick.mp3 */,
+				F79DFD76254AE8B6008D6027 /* gameStarted.mp3 */,
+				F79DFD6D254AE59A008D6027 /* pause.mp3 */,
+				F79DFD6E254AE59A008D6027 /* resume.mp3 */,
+				F79DFD7D254AE922008D6027 /* sliderClick.mp3 */,
+				F79DFD7C254AE922008D6027 /* timeOver.mp3 */,
+				F79DFD7B254AE922008D6027 /* toggleOff.mp3 */,
+				F79DFD7A254AE922008D6027 /* toggleOn.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		5294A30724C1C17D00D10110 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +137,10 @@
 		5294A31224C1C17D00D10110 /* Spyfall Pro */ = {
 			isa = PBXGroup;
 			children = (
-				5294A31324C1C17D00D10110 /* AppDelegate.swift */,
-				5294A31524C1C17D00D10110 /* SceneDelegate.swift */,
-				5294A31724C1C17D00D10110 /* ContentView.swift */,
+				F793463F2552C38E00464C87 /* Code */,
+				F793463E2552C35600464C87 /* Resources */,
+				52BCF37324C8DDD0002EB9A9 /* Spyfall Pro.entitlements */,
 				5294A31924C1C17F00D10110 /* Assets.xcassets */,
-				5294A31E24C1C17F00D10110 /* LaunchScreen.storyboard */,
 				5294A32124C1C17F00D10110 /* Info.plist */,
 				5294A31B24C1C17F00D10110 /* Preview Content */,
 			);
@@ -73,6 +153,41 @@
 				5294A31C24C1C17F00D10110 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F793463E2552C35600464C87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52A8702024D0493200134A20 /* Localizable.strings */,
+				5294A32824C1DA5500D10110 /* Codename Coder Free 4F.ttf */,
+				525A385824C4C306002D79FE /* locations.json */,
+				52378A1824C45F4B0024EDC4 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F793463F2552C38E00464C87 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				5294A31324C1C17D00D10110 /* AppDelegate.swift */,
+				5294A31524C1C17D00D10110 /* SceneDelegate.swift */,
+				525A385324C4AC7E002D79FE /* GameSettings.swift */,
+				F79346412552C3EA00464C87 /* Views */,
+				52378A1324C45D7A0024EDC4 /* Helpers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		F79346412552C3EA00464C87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				525A385124C4AAD9002D79FE /* ParentView.swift */,
+				5294A31724C1C17D00D10110 /* WelcomeView_OptionsView.swift */,
+				52378A1F24C470DE0024EDC4 /* WelcomeView_InfoView.swift */,
+				F710B7E325435A860007FAE2 /* WelcomeView_ListOfLocations.swift */,
+				525A385524C4BA81002D79FE /* GameView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +217,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "John Zarogiannis";
 				TargetAttributes = {
 					5294A30F24C1C17D00D10110 = {
@@ -117,6 +232,7 @@
 			knownRegions = (
 				en,
 				Base,
+				el,
 			);
 			mainGroup = 5294A30724C1C17D00D10110;
 			productRefGroup = 5294A31124C1C17D00D10110 /* Products */;
@@ -133,9 +249,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5294A32024C1C17F00D10110 /* LaunchScreen.storyboard in Resources */,
+				52A8701E24D0493200134A20 /* Localizable.strings in Resources */,
 				5294A31D24C1C17F00D10110 /* Preview Assets.xcassets in Resources */,
+				F79DFD70254AE59A008D6027 /* resume.mp3 in Resources */,
+				F79DFD7E254AE922008D6027 /* toggleOn.mp3 in Resources */,
+				525A385B24C4C306002D79FE /* locations.json in Resources */,
 				5294A31A24C1C17F00D10110 /* Assets.xcassets in Resources */,
+				5294A32924C1DA5500D10110 /* Codename Coder Free 4F.ttf in Resources */,
+				F79DFD7F254AE922008D6027 /* toggleOff.mp3 in Resources */,
+				F79DFD6F254AE59A008D6027 /* pause.mp3 in Resources */,
+				F79DFD77254AE8B6008D6027 /* gameStarted.mp3 in Resources */,
+				F79DFD81254AE922008D6027 /* sliderClick.mp3 in Resources */,
+				F79DFD74254AE867008D6027 /* buttonClick.mp3 in Resources */,
+				F79DFD80254AE922008D6027 /* timeOver.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,21 +272,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BCF36E24C8C4A9002EB9A9 /* TitleWithVariable.swift in Sources */,
+				526EC0A724C8A655001AD9BF /* SliderWithMinMaxValues.swift in Sources */,
+				52378A1724C45DAF0024EDC4 /* PlaySound.swift in Sources */,
+				52378A1524C45D910024EDC4 /* HexColor.swift in Sources */,
 				5294A31424C1C17D00D10110 /* AppDelegate.swift in Sources */,
+				F710B7E425435A860007FAE2 /* WelcomeView_ListOfLocations.swift in Sources */,
 				5294A31624C1C17D00D10110 /* SceneDelegate.swift in Sources */,
-				5294A31824C1C17D00D10110 /* ContentView.swift in Sources */,
+				525A385624C4BA81002D79FE /* GameView.swift in Sources */,
+				525A385224C4AAD9002D79FE /* ParentView.swift in Sources */,
+				52BCF37024C8D7F4002EB9A9 /* CustomToggle.swift in Sources */,
+				52A8702324D04A0900134A20 /* String+Localized.swift in Sources */,
+				F710B7DF25434B130007FAE2 /* ButtonScaleOnPress.swift in Sources */,
+				52378A2024C470DE0024EDC4 /* WelcomeView_InfoView.swift in Sources */,
+				52BCF36A24C8AE25002EB9A9 /* CircularButton.swift in Sources */,
+				5294A31824C1C17D00D10110 /* WelcomeView_OptionsView.swift in Sources */,
+				525A385424C4AC7E002D79FE /* GameSettings.swift in Sources */,
+				52BCF36C24C8B0A6002EB9A9 /* RoundedRectanglularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5294A31E24C1C17F00D10110 /* LaunchScreen.storyboard */ = {
+		52A8702024D0493200134A20 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5294A31F24C1C17F00D10110 /* Base */,
+				52A8701F24D0493200134A20 /* en */,
+				52A8702124D0494900134A20 /* el */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -192,6 +334,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -252,6 +396,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,17 +429,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Spyfall Pro/Spyfall Pro.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Spyfall Pro/Preview Content\"";
 				DEVELOPMENT_TEAM = QEDR695R9K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Spyfall Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.johnzaro.Spyfall-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,17 +452,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Spyfall Pro/Spyfall Pro.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Spyfall Pro/Preview Content\"";
 				DEVELOPMENT_TEAM = QEDR695R9K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Spyfall Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.johnzaro.Spyfall-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
