@@ -1,0 +1,552 @@
+[
+		{
+			"el":"ΑΕΡΟΔΡΟΜΙΟ",
+			"en":"AIRPORT",
+			"type":"basic"
+		},
+		{
+			"el":"ΑΕΡΟΠΛΑΝΟ",
+			"en":"AIRPLANE",
+			"type":"basic"
+		},
+		{
+			"el":"ΑΕΡΟΠΛΑΝΟΦΟΡΟ",
+			"en":"AIRCRAFT CARRIER",
+			"type":"basic"
+		},
+		{
+			"el":"ΑΕΡΟΣΤΑΤΟ",
+			"en":"BALLOON",
+			"type":"basic"
+		},
+		{
+			"el":"ΑΜΑΞΙ",
+			"en":"CAR",
+			"type":"basic"
+		},
+		{
+			"el":"ΑΡΕΝΑ ΜΑΧΗΣ",
+			"en":"BATTLE AREA",
+			"type":"basic"
+		},
+		{
+			"el":"ΑΡΧΑΙΟΛΟΓΙΚΟ ΜΟΥΣΕΙΟ",
+			"en":"ARCHAEOLOGICAL MUSEUM",
+			"type":"basic"
+		},
+		{
+			"el":"ΑΣΤΥΝΟΜΙΚΟ ΤΜΗΜΑ",
+			"en":"POLICE DEPARTMENT",
+			"type":"basic"
+		},
+		{
+			"el":"ΑΥΤΟΣ Ο ΧΩΡΟΣ",
+			"en":"THIS PLACE",
+			"type":"basic"
+		},
+		{
+			"el":"ΒΕΝΖΙΝΑΔΙΚΟ",
+			"en":"GAS STATION",
+			"type":"basic"
+		},
+		{
+			"el":"ΒΙΒΛΙΟΘΗΚΗ",
+			"en":"LIBRARY",
+			"type":"basic"
+		},
+		{
+			"el":"ΒΟΡΕΙΟΣ ΠΟΛΟΣ",
+			"en":"NORTH POLE",
+			"type":"basic"
+		},
+		{
+			"el":"ΒΟΥΛΗ",
+			"en":"PARLIAMENT",
+			"type":"basic"
+		},
+		{
+			"el":"ΓΕΦΥΡΑ",
+			"en":"BRIDGE",
+			"type":"basic"
+		},
+		{
+			"el":"ΓΗΠΕΔΟ ΓΚΟΛΦ",
+			"en":"GOLF COURSE",
+			"type":"basic"
+		},
+		{
+			"el":"ΓΗΡΟΚΟΜΕΙΟ",
+			"en":"NURSING HOME",
+			"type":"basic"
+		},
+		{
+			"el":"ΓΡΑΦΕΙΟ ΤΕΛΕΤΩΝ",
+			"en":"FUNERAL HOME",
+			"type":"basic"
+		},
+		{
+			"el":"ΓΥΜΝΑΣΤΗΡΙΟ",
+			"en":"GYM",
+			"type":"basic"
+		},
+		{
+			"el":"ΔΙΑΣΤΗΜΟΠΛΟΙΟ",
+			"en":"SPACECRAFT",
+			"type":"basic"
+		},
+		{
+			"el":"ΔΙΚΑΣΤΗΡΙΟ",
+			"en":"COURT",
+			"type":"basic"
+		},
+		{
+			"el":"ΕΚΚΛΗΣΙΑ",
+			"en":"CHURCH",
+			"type":"basic"
+		},
+		{
+			"el":"ΕΛΕΥΘΕΡΟ ΚΑΜΠΙΝΓΚ",
+			"en":"FREE CAMPING",
+			"type":"basic"
+		},
+		{
+			"el":"ΕΛΙΚΟΠΤΕΡΟ",
+			"en":"HELICOPTER",
+			"type":"basic"
+		},
+		{
+			"el":"ΕΜΠΟΡΙΚΟ ΜΟΛ",
+			"en":"COMMERCIAL MOL",
+			"type":"basic"
+		},
+		{
+			"el":"ΕΡΓΟΣΤΑΣΙΟ ΣΟΚΟΛΑΤΑΣ",
+			"en":"CHOCOLATE FACTORY",
+			"type":"basic"
+		},
+		{
+			"el":"ΕΡΗΜΙΚΟ ΝΗΣΙ",
+			"en":"DESERTED ISLAND",
+			"type":"basic"
+		},
+		{
+			"el":"ΕΡΗΜΟΣ",
+			"en":"DESERT",
+			"type":"basic"
+		},
+		{
+			"el":"ΕΣΤΙΑΤΟΡΙΟ",
+			"en":"RESTAURANT",
+			"type":"basic"
+		},
+		{
+			"el":"ΖΟΥΓΚΛΑ",
+			"en":"JUNGLE",
+			"type":"basic"
+		},
+		{
+			"el":"ΖΩΟΛΟΓΙΚΟΣ ΚΗΠΟΣ",
+			"en":"ZOO",
+			"type":"basic"
+		},
+		{
+			"el":"ΗΦΑΙΣΤΕΙΟ",
+			"en":"VOLCANO",
+			"type":"basic"
+		},
+		{
+			"el":"ΘΕΑΤΡΟ",
+			"en":"THEATER",
+			"type":"basic"
+		},
+		{
+			"el":"ΙΝΤΕΡΝΕΤ ΚΑΦΕ",
+			"en":"INTERNET CAFE",
+			"type":"basic"
+		},
+		{
+			"el":"ΚΑΖΙΝΟ",
+			"en":"CASINO",
+			"type":"basic"
+		},
+		{
+			"el":"ΚΑΡΝΑΒΑΛΙ",
+			"en":"CARNIVAL",
+			"type":"basic"
+		},
+		{
+			"el":"ΚΑΤΑΣΤΗΜΑ ΡΟΥΧΩΝ",
+			"en":"CLOTHES SHOP",
+			"type":"basic"
+		},
+		{
+			"el":"ΚΑΦΕΤΕΡΙΑ",
+			"en":"CAFE",
+			"type":"basic"
+		},
+		{
+			"el":"ΚΛΑΜΠ",
+			"en":"CLUB",
+			"type":"basic"
+		},
+		{
+			"el":"ΚΟΡΥΦΗ ΟΥΡΑΝΟΞΥΣΤΗ",
+			"en":"SKYSCRAPER TOP",
+			"type":"basic"
+		},
+		{
+			"el":"ΚΡΟΥΑΖΙΕΡΟΠΛΟΙΟ",
+			"en":"CRUISE SHIP",
+			"type":"basic"
+		},
+		{
+			"el":"ΛΟΥΝΑ ΠΑΡΚ",
+			"en":"LUNA PARK",
+			"type":"basic"
+		},
+		{
+			"el":"ΜΑΘΗΜΑ ΓΙΟΓΚΑ",
+			"en":"YOGA CLASS",
+			"type":"basic"
+		},
+		{
+			"el":"ΜΕΤΡΟ",
+			"en":"SUBWAY",
+			"type":"basic"
+		},
+		{
+			"el":"ΜΟΤΕΛ",
+			"en":"MOTEL",
+			"type":"basic"
+		},
+		{
+			"el":"ΜΟΥΣΕΙΟ ΦΥΣΙΚΗΣ ΙΣΤΟΡΙΑΣ",
+			"en":"NATURAL HISTORY MUSEUM",
+			"type":"basic"
+		},
+		{
+			"el":"ΜΠΟΥΝΤΡΟΥΜΙ",
+			"en":"DUNGEON",
+			"type":"basic"
+		},
+		{
+			"el":"ΝΑΥΑΓΟΣΩΣΤΙΚΗ ΛΕΜΒΟΣ",
+			"en":"LIFEBOAT",
+			"type":"basic"
+		},
+		{
+			"el":"ΝΕΚΡΟΤΑΦΕΙΟ",
+			"en":"CEMETERY",
+			"type":"basic"
+		},
+		{
+			"el":"ΝΕΡΟΤΣΟΥΛΗΘΡΕΣ",
+			"en":"WATER SLIDES",
+			"type":"basic"
+		},
+		{
+			"el":"ΝΟΣΟΚΟΜΕΙΟ",
+			"en":"HOSPITAL",
+			"type":"basic"
+		},
+		{
+			"el":"ΞΕΝΟΔΟΧΕΙΟ",
+			"en":"HOTEL",
+			"type":"basic"
+		},
+		{
+			"el":"ΟΙΚΟΔΟΜΗ",
+			"en":"CONSTRUCTION SITE",
+			"type":"basic"
+		},
+		{
+			"el":"ΟΠΕΡΑ",
+			"en":"OPERA",
+			"type":"basic"
+		},
+		{
+			"el":"ΟΡΟΣ ΕΒΕΡΕΣΤ",
+			"en":"MOUNT EVEREST",
+			"type":"basic"
+		},
+		{
+			"el":"ΟΡΥΧΕΙΟ",
+			"en":"MINE",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΑΙΔΙΚΗ ΧΑΡΑ",
+			"en":"PLAYGROUND",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΑΙΔΙΚΟΣ ΣΤΑΘΜΟΣ",
+			"en":"KINDERGARTEN",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΑΝΕΠΙΣΤΗΜΙΟ",
+			"en":"UNIVERSITY",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΑΝΩ ΣΕ ΕΝΑ ΔΕΝΤΡΟ",
+			"en":"UP A TREE",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΑΡΑΛΙΑ",
+			"en":"BEACH",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΕΔΙΟ ΜΑΧΗΣ",
+			"en":"BATTLEFIELD",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΗΓΑΔΙ",
+			"en":"WELL",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΙΝΑΚΟΘΗΚΗ",
+			"en":"GALLERY",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΙΣΙΝΑ",
+			"en":"POOL",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΙΣΤΑ F1",
+			"en":"F1 TRACK",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΛΥΝΤΗΡΙΟ ΑΥΤΟΚΙΝΗΤΩΝ",
+			"en":"CAR WASH",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΟΔΟΣΦΑΙΡΙΚΟΣ ΑΓΩΝΑΣ",
+			"en":"FOOTBALL MATCH",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΟΛΥΤΕΛΕΣ ΓΙΟΤ",
+			"en":"LUXURY YACHT",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΡΕΣΒΕΙΑ",
+			"en":"EMBASSY",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΡΟΕΔΡΙΚΟ ΜΕΓΑΡΟ",
+			"en":"PRESIDENTIAL PALACE",
+			"type":"basic"
+		},
+		{
+			"el":"ΠΥΡΑΜΙΔΑ ΤΗΣ ΓΚΙΖΑΣ",
+			"en":"PYRAMID OF GIZA",
+			"type":"basic"
+		},
+		{
+			"el":"ΡΟΚ ΣΥΝΑΥΛΙΑ",
+			"en":"ROCK CONCERT",
+			"type":"basic"
+		},
+		{
+			"el":"ΣΑΒΑΝΑ",
+			"en":"SAVANNA",
+			"type":"basic"
+		},
+		{
+			"el":"ΣΙΝΕΜΑ",
+			"en":"CINEMA",
+			"type":"basic"
+		},
+		{
+			"el":"ΣΟΥΠΕΡ ΜΑΡΚΕΤ",
+			"en":"SUPER MARKET",
+			"type":"basic"
+		},
+		{
+			"el":"ΣΠΑ",
+			"en":"SPA",
+			"type":"basic"
+		},
+		{
+			"el":"ΣΠΗΛΙΑ",
+			"en":"CAVE",
+			"type":"basic"
+		},
+		{
+			"el":"ΣΤΑΔΙΟ ΣΤΙΒΟΥ",
+			"en":"ATHLETICS STADIUM",
+			"type":"basic"
+		},
+		{
+			"el":"ΣΤΡΑΤΙΩΤΙΚΗ ΒΑΣΗ",
+			"en":"MILITARY BASE",
+			"type":"basic"
+		},
+		{
+			"el":"ΣΧΟΛΕΙΟ",
+			"en":"SCHOOL",
+			"type":"basic"
+		},
+		{
+			"el":"ΤΡΑΠΕΖΑ",
+			"en":"BANK",
+			"type":"basic"
+		},
+		{
+			"el":"ΤΡΕΝΟ",
+			"en":"TRAIN",
+			"type":"basic"
+		},
+		{
+			"el":"ΤΣΙΡΚΟ",
+			"en":"CIRCUS",
+			"type":"basic"
+		},
+		{
+			"el":"ΥΠΟΒΡΥΧΙΟ",
+			"en":"SUBMARINE",
+			"type":"basic"
+		},
+		{
+			"el":"ΥΠΟΓΕΙΟ ΜΥΣΤΙΚΟ ΕΡΓΑΣΤΗΡΙΟ",
+			"en":"UNDERGROUND SECRET LABORATORY",
+			"type":"basic"
+		},
+		{
+			"el":"ΥΠΟΝΟΜΟΣ",
+			"en":"SEWER",
+			"type":"basic"
+		},
+		{
+			"el":"ΦΑΒΕΛΑ",
+			"en":"FAVEL",
+			"type":"basic"
+		},
+		{
+			"el":"ΦΑΡΜΑ",
+			"en":"FARM",
+			"type":"basic"
+		},
+		{
+			"el":"ΦΑΡΜΑΚΕΙΟ",
+			"en":"PHARMACY",
+			"type":"basic"
+		},
+		{
+			"el":"ΦΟΙΤΗΤΙΚΟ ΠΑΡΤΥ",
+			"en":"STUDENT PARTY",
+			"type":"basic"
+		},
+		{
+			"el":"ΦΥΛΑΚΗ",
+			"en":"PRISON",
+			"type":"basic"
+		},
+		{
+			"el":"ΧΕΙΡΟΥΡΓΕΙΟ",
+			"en":"SURGERY",
+			"type":"basic"
+		},
+		{
+			"el":"ΧΩΜΑΤΕΡΗ",
+			"en":"RUBBISH DUMP",
+			"type":"basic"
+		},
+		{
+			"el":"DEATH STAR",
+			"en":"DEATH STAR",
+			"type":"fantasy"
+		},
+		{
+			"el":"HOGWARTS",
+			"en":"HOGWARTS",
+			"type":"fantasy"
+		},
+		{
+			"el":"JURASSIC PARK",
+			"en":"JURASSIC PARK",
+			"type":"fantasy"
+		},
+		{
+			"el":"KING'S LANDING",
+			"en":"KING'S LANDING",
+			"type":"fantasy"
+		},
+		{
+			"el":"WESTWORLD",
+			"en":"WESTWORLD",
+			"type":"fantasy"
+		},
+		{
+			"el":"ΑΣΥΛΟ ΤΟΥ ΑΡΚΑΜ",
+			"en":"ARKAM ASYLUM",
+			"type":"fantasy"
+		},
+		{
+			"el":"ΒΥΘΟΣ ΤΟΥ ΜΠΙΚΙΝΙ",
+			"en":"BIKINI BOTTOM",
+			"type":"fantasy"
+		},
+		{
+			"el":"ΠΕΙΡΑΤΙΚΟ ΚΑΡΑΒΙ",
+			"en":"PIRATE SHIP",
+			"type":"fantasy"
+		},
+		{
+			"el":"ΠΕΡΙΟΧΗ 51",
+			"en":"AREA 51",
+			"type":"fantasy"
+		},
+		{
+			"el":"ΣΑΛΟΥΝ",
+			"en":"SALOON",
+			"type":"fantasy"
+		},
+		{
+			"el":"ΣΤΟΙΧΕΙΩΜΕΝΟ ΣΠΙΤΙ",
+			"en":"HAUNTED HOUSE",
+			"type":"fantasy"
+		},
+		{
+			"el":"ΤΙΤΑΝΙΚΟΣ",
+			"en":"TITANIC",
+			"type":"fantasy"
+		},
+		{
+			"el":"ΦΕΓΓΑΡΙ",
+			"en":"MOON",
+			"type":"fantasy"
+		},
+		{
+			"el":"ΜΠΟΥΡΔΕΛΟ",
+			"en":"BROTHEL",
+			"type":"nsfw"
+		},
+		{
+			"el":"ΠΑΡΑΛΙΑ ΓΥΜΝΙΣΤΏΝ",
+			"en":"NUDIST BEACH",
+			"type":"nsfw"
+		},
+		{
+			"el":"ΣΤΡΙΠΤΙΤΖΑΔΙΚΟ",
+			"en":"STRIP CLUB",
+			"type":"nsfw"
+		},
+		{
+			"el":"ΧΑΣΙΣΟΦΥΤΕΙΑ",
+			"en":"HASHISH PLANTATION",
+			"type":"nsfw"
+		}
+]
